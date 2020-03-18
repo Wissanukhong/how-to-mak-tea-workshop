@@ -1,0 +1,21 @@
+body {
+    padding: 30px 30px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    font-size: 25px;
+}
+
+.header p{
+    font-size: 18px;
+    text-align: left;
+}
+
+.footer {
+    background-color: purple;
+    height: 50px;
+
+}
