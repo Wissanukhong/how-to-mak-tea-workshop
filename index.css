@@ -1,5 +1,5 @@
 body {
-    padding: 30px 30px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -7,15 +7,39 @@ body {
 .header {
     text-align: center;
     font-size: 25px;
+    background: purple;
+    padding: 20px;
 }
 
-.header p{
-    font-size: 18px;
-    text-align: left;
+@media (max-width: 700px) {
+    .header {
+        font-size: 15px;
+    }
+}
+
+.picture{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-responsive {
+    width: 70%;
+    height: auto;
+}
+
+.container {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container section {
+    margin: 0 auto;
 }
 
 .footer {
-    background-color: purple;
-    height: 50px;
-
+    background: purple;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
 }
