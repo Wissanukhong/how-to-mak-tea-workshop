@@ -119,7 +119,7 @@ body {
 
 - margin: 0; เราตั้งค่าให้เป็น 0 เพื่อที่จะเคลียร์ค่า default ของ brownser
 
-ิ- box-sizing: border-box; การใช้ box-sizing: border-box นั้นใช้สำหรับเมื่อเราต้องการกำหนดขนาดของ element นั้นตามค่า width เลยโดยไม่นำ padding และ border มาคิดภายนอก ยกเว้น margin ที่จะคิดภายนอก element เช่นเดิม
+- box-sizing: border-box; การใช้ box-sizing: border-box นั้นใช้สำหรับเมื่อเราต้องการกำหนดขนาดของ element นั้นตามค่า width เลยโดยไม่นำ padding และ border มาคิดภายนอก ยกเว้น margin ที่จะคิดภายนอก element เช่นเดิม
 
 - background: linear-gradient(rgb(50, 99, 179), rgb(153, 172, 194)); เป็นการตั้งค่า background ให้เป็นแบบ linear
 
