@@ -74,6 +74,18 @@
 </div>
 ```
 
+![figcaption](figcaption.png)
+
+```html
+<figure>
+  <img  />
+  <figcaption>
+    Credit :
+    https://whatsupdockth.com/wp-content/uploads/2019/08/Whats-Up-Dock-Hot-Tea.jpg
+  </figcaption>
+</figure>
+```
+
 ### footer
 
 ```html
@@ -81,6 +93,8 @@
   <p>&copy Copyright Me 2020</p>
 </footer>
 ```
+
+![add a copy ](copyfooter.png)
 
 > จากตัวอย่าง Code ที่เห็น จะพบว่า เราวางโครงสร้างเพียงแค่ 3 ส่วนเท่านั้น คือ
 >
@@ -103,6 +117,19 @@ body {
 }
 ```
 
-- padding: 0; เราตั้งค่าให้เป็น 0 เพื่อที่จะเคลียร์ค่า default
+- padding: 0; เราตั้งค่าให้เป็น 0 เพื่อที่จะเคลียร์ค่า default ของ brownser
+
+- margin: 0; เราตั้งค่าให้เป็น 0 เพื่อที่จะเคลียร์ค่า default ของ brownser
 
 ิ- box-sizing: border-box; การใช้ box-sizing: border-box นั้นใช้สำหรับเมื่อเราต้องการกำหนดขนาดของ element นั้นตามค่า width เลยโดยไม่นำ padding และ border มาคิดภายนอก ยกเว้น margin ที่จะคิดภายนอก element เช่นเดิม
+
+- background: linear-gradient(rgb(50, 99, 179), rgb(153, 172, 194)); เป็นการตั้งค่า background ให้เป็นแบบ linear
+
+```css
+/* กรณีที่เราต้องการให้การแสดงผลมีค่าแบบ Responsive ตามขนาดที่เราต้องการ */
+@media (max-width: 700px) {
+  .header {
+    font-size: 15px;
+  }
+}
+```
