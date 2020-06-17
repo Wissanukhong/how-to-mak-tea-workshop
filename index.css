@@ -7,7 +7,7 @@ body {
 .header {
     text-align: center;
     font-size: 25px;
-    background: purple;
+    background: linear-gradient(rgb(50, 99, 179), rgb(153, 172, 194));
     padding: 20px;
 }
 
@@ -20,6 +20,11 @@ body {
 .picture{
     text-align: center;
     margin-top: 15px;
+}
+
+.figcaptionShow {
+    color: rgb(148, 133, 133);
+    font-weight: 300;
 }
 
 .img-responsive {
@@ -37,9 +42,16 @@ body {
     margin: 0 auto;
 }
 
+/* Footer */
 .footer {
-    background: purple;
+    background: linear-gradient(rgb(50, 99, 179), rgb(153, 172, 194));
     padding: 10px;
     color: whitesmoke;
     text-align: center;
+}
+
+@media (max-width: 700px){
+    .footer {
+        font-size: small;
+    }
 }
