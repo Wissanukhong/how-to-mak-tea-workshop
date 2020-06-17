@@ -78,7 +78,7 @@
 
 ```html
 <figure>
-  <img  />
+  <img />
   <figcaption>
     Credit :
     https://whatsupdockth.com/wp-content/uploads/2019/08/Whats-Up-Dock-Hot-Tea.jpg
@@ -104,8 +104,6 @@
 >    แต่สิ่งที่ทำให้ website ของเราสวยงามมากยิ่งขึ้นคือ css นั้นเอง
 
 ## CSS
-
-<!-- box-sizing: border-box; ถ้าหากเรากำหนดตัวนี้ลงไป เราจะได้ขนาดของ Box ที่มีขนาดเท่ากับความเป็นจริงโดยที่เราไม่ต้องไปคำนวณเอง  -->
 
 สำหรับ css นั้น ในตอนเริ่มต้นเรา จะต้องทำการ setting ค่าต่างให้เป็นแบบนี้
 
